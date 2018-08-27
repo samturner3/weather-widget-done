@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CacheOptions should render with right amount of elements 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CacheOptions
+    placesCache={
+        Array [
+            Object {
+              "exp": 1535070680000,
+              "key": "-33.8688197+151.20929550000005",
+              "name": "Sydney",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          Sydney
+           
+          <i>
+                    (Expires 
+                    in 10 minutes
+                    , 
+                    -600
+                    )
+          </i>
+</li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Sydney",
+            " ",
+            <i>
+              (Expires 
+              in 10 minutes
+              , 
+              -600
+              )
+</i>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Sydney",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "(Expires ",
+                "in 10 minutes",
+                ", ",
+                -600,
+                ")",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "(Expires ",
+              "in 10 minutes",
+              ", ",
+              -600,
+              ")",
+            ],
+            "type": "i",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            Sydney
+             
+            <i>
+                        (Expires 
+                        in 10 minutes
+                        , 
+                        -600
+                        )
+            </i>
+</li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Sydney",
+              " ",
+              <i>
+                (Expires 
+                in 10 minutes
+                , 
+                -600
+                )
+</i>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Sydney",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "(Expires ",
+                  "in 10 minutes",
+                  ", ",
+                  -600,
+                  ")",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "(Expires ",
+                "in 10 minutes",
+                ", ",
+                -600,
+                ")",
+              ],
+              "type": "i",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

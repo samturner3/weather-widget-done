@@ -1,0 +1,17 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+server/node_modules
+
+# testing
+/coverage
+
+# production
+client/build
+
+#images
+server/public/backgroundImages
+client/public/backgroundImages
+
+coverage

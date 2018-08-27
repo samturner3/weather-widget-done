@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackSide /> should render all elements 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BackSide
+    placesCache={
+        Array [
+            Object {
+              "exp": 1535100127158,
+              "key": "-33.8688197+151.20929550000005",
+              "name": "Sydney",
+            },
+          ]
+    }
+    setLocation={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Search a location to show data
+</h2>,
+        <ReactGoogleAutocomplete
+          onPlaceSelected={[Function]}
+          style={
+                    Object {
+                              "width": "90%",
+                            }
+          }
+          types={
+                    Array [
+                              "(regions)",
+                            ]
+          }
+/>,
+        <div>
+          <h3>
+                    Server-side cached data locations:
+          </h3>
+          <CacheOptions
+                    placesCache={
+                              Array [
+                                        Object {
+                                          "exp": 1535100127158,
+                                          "key": "-33.8688197+151.20929550000005",
+                                          "name": "Sydney",
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Search a location to show data",
+        },
+        "ref": null,
+        "rendered": "Search a location to show data",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onPlaceSelected": [Function],
+          "style": Object {
+            "width": "90%",
+          },
+          "types": Array [
+            "(regions)",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Server-side cached data locations:
+</h3>,
+            <CacheOptions
+              placesCache={
+                            Array [
+                                          Object {
+                                            "exp": 1535100127158,
+                                            "key": "-33.8688197+151.20929550000005",
+                                            "name": "Sydney",
+                                          },
+                                        ]
+              }
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Server-side cached data locations:",
+            },
+            "ref": null,
+            "rendered": "Server-side cached data locations:",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "placesCache": Array [
+                Object {
+                  "exp": 1535100127158,
+                  "key": "-33.8688197+151.20929550000005",
+                  "name": "Sydney",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Search a location to show data
+</h2>,
+          <ReactGoogleAutocomplete
+            onPlaceSelected={[Function]}
+            style={
+                        Object {
+                                    "width": "90%",
+                                  }
+            }
+            types={
+                        Array [
+                                    "(regions)",
+                                  ]
+            }
+/>,
+          <div>
+            <h3>
+                        Server-side cached data locations:
+            </h3>
+            <CacheOptions
+                        placesCache={
+                                    Array [
+                                                Object {
+                                                  "exp": 1535100127158,
+                                                  "key": "-33.8688197+151.20929550000005",
+                                                  "name": "Sydney",
+                                                },
+                                              ]
+                        }
+            />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search a location to show data",
+          },
+          "ref": null,
+          "rendered": "Search a location to show data",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onPlaceSelected": [Function],
+            "style": Object {
+              "width": "90%",
+            },
+            "types": Array [
+              "(regions)",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Server-side cached data locations:
+</h3>,
+              <CacheOptions
+                placesCache={
+                                Array [
+                                                Object {
+                                                  "exp": 1535100127158,
+                                                  "key": "-33.8688197+151.20929550000005",
+                                                  "name": "Sydney",
+                                                },
+                                              ]
+                }
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Server-side cached data locations:",
+              },
+              "ref": null,
+              "rendered": "Server-side cached data locations:",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "placesCache": Array [
+                  Object {
+                    "exp": 1535100127158,
+                    "key": "-33.8688197+151.20929550000005",
+                    "name": "Sydney",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
